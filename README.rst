@@ -1,3 +1,10 @@
+**This repo is a fork of https://github.com/oemof/oemof intended to remove dependencies from deprecated oemof subpackages causing problems with macOS. Although this problem was reported in https://github.com/oemof/oemof/issues/119 and solved in the branch https://github.com/oemof/oemof/tree/revision/only_maintained_software, as long as this branch is not integrated into the main oemof branch, the H2Powerplant tool uses this fork to ensure availability (using the oemof dev branch directly in our dependencies might lead to the program not functioning if the branch gets removed in the future). After integration of this feature into a future oemof version in the future, the H2Powerplant tool might be altered to use such a version direct. If this is the case, this fork than could be removed.**
+
+**PLEASE DO NOT USE THIS FORK FOR ANYTHING OTHER THAN THE H2POWERPLANT TOOL.**
+
+===========================
+
+
 =======================================
 Open Energy Modelling Framework (oemof)
 =======================================
